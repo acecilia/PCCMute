@@ -4,7 +4,7 @@ PCCMute
 The repository of the PCCMute v2.2 board
 
 ########################################################
-**LINUX KERNEL 3.7.4+**
+LINUX KERNEL 3.7.4+
 ########################################################
 ========================================================
 Description
@@ -27,10 +27,8 @@ The first time you compile the kernel run: (just the first time!!)
 $ make CROSS_COMPILE=arm-linux-gnueabi- mrproper
 
 And after:
-~~~~~~
 $ cp ../configs/beagleboard .config
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage dtbs
-~~~~~~
 
 ########################################################
 u-boot-2012.10
