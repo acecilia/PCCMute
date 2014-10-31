@@ -4,9 +4,7 @@ PCCMute
 The repository of the PCCMute v2.2 board
 
 ##LINUX KERNEL 3.7.4+
-========================================================
 ####Description
-========================================================
 This linux kernel 3.7.4+ is modified to return allways that the board is a revC4 board. 
 
 It also allows to enable SPI just by writting inside uEnv.txt:
