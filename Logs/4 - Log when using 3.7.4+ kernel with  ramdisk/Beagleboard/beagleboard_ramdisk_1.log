@@ -1,0 +1,479 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2014.10.31 13:34:43 =~=~=~=~=~=~=~=~=~=~=~=
+
+
+U-Boot 2012.10 (Oct 22 2014 - 14:00:51)
+
+OMAP3530-GP ES3.1, CPU-OPP2, L3-165MHz, Max CPU Clock 720 mHz
+OMAP3 Beagle board + LPDDR/NAND
+I2C:   ready
+DRAM:  256 MiB
+NAND:  256 MiB
+MMC:   OMAP SD/MMC: 0
+In:    serial
+Out:   serial
+Err:   serial
+Beagle Rev C4
+timed out in wait_for_pin: I2C_STAT=0
+No EEPROM on expansion board
+Die ID #7d62000400000000040373051500500e
+Net:   Net Initialization Skipped
+No ethernet found.
+Hit any key to stop autoboot:  3  0 
+OMAP3 beagleboard.org # boot
+
+gpio: pin 173 (gpio 173) value is 1
+gpio: pin 7 (gpio 7) value is 0
+SD/MMC found on device 0
+reading uEnv.txt
+
+577 bytes read
+Loaded environment from uEnv.txt
+Importing environment from mmc ...
+Saving Environment to NAND...
+Erasing Nand...
+
+Erasing at 0x260000 -- 100% complete.
+Writing to Nand... done
+reading ramdisk.gz
+
+17372254 bytes read
+reading uImage
+
+3390424 bytes read
+Booting from ramdisk ...
+## Booting kernel from Legacy Image at 80200000 ...
+   Image Name:   Linux-3.7.4+
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3390360 Bytes = 3.2 MiB
+   Load Address: 80008000
+   Entry Point:  80008000
+   Verifying Checksum ... OK
+   Loading Kernel Image ... OK
+OK
+
+Starting kernel ...
+
+Uncompressing Linux... done, booting the kernel.
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.7.4+ (acecilia@gdem7) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ) #1 SMP Tue Oct 28 13:42:47 CET 2014
+[    0.000000] CPU: ARMv7 Processor [411fc083] revision 3 (ARMv7), cr=10c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+[    0.000000] Machine: OMAP3 Beagle Board
+[    0.000000] Beagle expansionboard: spidev
+[    0.000000] Reserving 12582912 bytes SDRAM for VRAM
+[    0.000000] cma: CMA: reserved 16 MiB at 8d800000
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] OMAP3430/3530 ES3.1 (l2cache iva sgx neon isp )
+[    0.000000] Clocking rate (Crystal/Core/MPU): 26.0/332/600 MHz
+[    0.000000] PERCPU: Embedded 9 pages/cpu @c0cbb000 s13312 r8192 d15360 u36864
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 59904
+[    0.000000] Kernel command line: console=ttyO2,115200n8 mpurate=auto buddy=spidev vram=12M omapfb.mode=dvi:640x480MR-16@60 omapdss.def_disp=dvi root=/dev/ram0 rw ramdisk_size=65536 initrd=0x81000000,64M rootfstype=ext2
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] allocated 524288 bytes of page_cgroup
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.000000] Memory: 236MB = 236MB total
+[    0.000000] Memory: 145924k/145924k available, 116220k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xd0800000 - 0xff000000   ( 744 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0905078   (9205 kB)
+[    0.000000]       .init : 0xc0906000 - 0xc0965400   ( 381 kB)
+[    0.000000]       .data : 0xc0966000 - 0xc09ed9f0   ( 543 kB)
+[    0.000000]        .bss : 0xc09eda14 - 0xc0ab65d4   ( 803 kB)
+[    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=2 to nr_cpu_ids=1.
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrupts
+[    0.000000] Total of 96 interrupts on 1 active controller
+[    0.000000] OMAP clockevent source: GPTIMER12 at 32768 Hz
+[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+[    0.000000] OMAP clocksource: 32k_counter at 32768 Hz
+[    0.000000] Console: colour dummy device 80x30
+[    0.000213] Calibrating delay loop... 405.44 BogoMIPS (lpj=1585152)
+[    0.047821] pid_max: default: 32768 minimum: 301
+[    0.048034] Security Framework initialized
+[    0.048095] AppArmor: AppArmor initialized
+[    0.048339] Mount-cache hash table entries: 512
+[    0.049530] Initializing cgroup subsys cpuacct
+[    0.049530] Initializing cgroup subsys memory
+[    0.049591] Initializing cgroup subsys devices
+[    0.049621] Initializing cgroup subsys freezer
+[    0.049621] Initializing cgroup subsys blkio
+[    0.049652] Initializing cgroup subsys perf_event
+[    0.049774] CPU: Testing write buffer coherency: ok
+[    0.050109] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+[    0.050201] Setting up static identity map for 0x806588b0 - 0x80658908
+[    0.051666] Brought up 1 CPUs
+[    0.051696] SMP: Total of 1 processors activated (405.44 BogoMIPS).
+[    0.052825] devtmpfs: initialized
+[    0.113769] pinctrl core: initialized pinctrl subsystem
+[    0.114379] regulator-dummy: no parameters
+[    0.116027] NET: Registered protocol family 16
+[    0.121002] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.121490] omap-gpmc omap-gpmc: GPMC revision 5.0
+[    0.124053] OMAP GPIO hardware version 2.5
+[    0.129272] omap_mux_init: Add partition: #1: core, flags: 0
+[    0.130615] ¡¡¡¡¡¡¡¡¡¡BOARD REVISION MODIFIED: IT ALLWAYS RETURNS C4!!!!!!!!!!
+[    0.130645] OMAP3 Beagle Rev: C4
+[    0.141357] Reprogramming SDRC clock to 332000000 Hz
+[    0.141448] Beagle expansionboard: registering spidev
+[    0.143035] Found NAND on CS0
+[    0.143066] Registering NAND on CS0
+[    0.143524] hw-breakpoint: debug architecture 0x4 unsupported.
+[    0.143798] Could not look up dss_hdmi hw_mod
+[    0.143981] Could not look up dmic hw_mod
+[    0.144012] Could not look up mcpdm hw_mod
+[    0.147491]  omap-mcbsp.2: alias fck already exists
+[    0.147766]  omap-mcbsp.3: alias fck already exists
+[    0.148864] OMAP DMA hardware revision 4.0
+[    0.150634]  arm-pmu: alias fck already exists
+[    0.162719] bio: create slab <bio-0> at 0
+[    0.180664] omap-dma-engine omap-dma-engine: OMAP DMA engine driver
+[    0.181701] SCSI subsystem initialized
+[    0.182495] usbcore: registered new interface driver usbfs
+[    0.182586] usbcore: registered new interface driver hub
+[    0.182800] usbcore: registered new device driver usb
+[    0.183258] musb-omap2430 musb-omap2430: invalid resource
+[    0.195861] twl 1-0048: PIH (irq 23) chaining IRQs 338..346
+[    0.196044] twl 1-0048: power (irq 343) chaining IRQs 346..353
+[    0.197235] twl4030_gpio twl4030_gpio: gpio (irq 338) chaining IRQs 354..371
+[    0.199310] VUSB1V5: 1500 mV normal standby
+[    0.199859] VUSB1V8: 1800 mV normal standby
+[    0.200378] VUSB3V1: 3100 mV normal standby
+[    0.202545] twl4030_usb twl4030_usb: Initialized TWL4030 USB module
+[    0.203338] vdd_mpu_iva: 600 <--> 1450 mV normal 
+[    0.203857] vdd_core: 600 <--> 1450 mV normal 
+[    0.204528] VMMC1: 1850 <--> 3150 mV at 3150 mV normal standby
+[    0.205200] VDAC: 1800 mV normal standby
+[    0.205871] VDVI: 1800 mV normal standby
+[    0.206665] VSIM: 1800 <--> 3000 mV at 1800 mV normal standby
+[    0.207733] VAUX3: 1800 mV normal standby
+[    0.208770] VAUX4: 1800 mV normal standby
+[    0.209167] omap_i2c omap_i2c.1: bus 1 rev1.3.12 at 2600 kHz
+[    0.209289] omap_i2c omap_i2c.1: bus 1 rev1.3.12 at 2600 kHz
+[    0.209899] omap_i2c omap_i2c.2: bus 2 rev1.3.12 at 400 kHz
+[    0.209960] omap_i2c omap_i2c.2: bus 2 rev1.3.12 at 400 kHz
+[    0.210540] omap_i2c omap_i2c.3: bus 3 rev1.3.12 at 100 kHz
+[    0.210601] omap_i2c omap_i2c.3: bus 3 rev1.3.12 at 100 kHz
+[    0.210784] media: Linux media interface: v0.10
+[    0.210876] Linux video capture interface: v2.00
+[    0.211517] omap-iommu omap-iommu.0: isp registered
+[    0.211883] Advanced Linux Sound Architecture Driver Initialized.
+[    0.212677] NetLabel: Initializing
+[    0.212677] NetLabel:  domain hash size = 128
+[    0.212707] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.212799] NetLabel:  unlabeled traffic allowed by default
+[    0.213195] Switching to clocksource 32k_counter
+[    0.240600] AppArmor: AppArmor Filesystem Enabled
+[    0.256591] NET: Registered protocol family 2
+[    0.257598] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.257812] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.257995] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.258117] TCP: reno registered
+[    0.258148] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.258178] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.258666] NET: Registered protocol family 1
+[    0.259185] RPC: Registered named UNIX socket transport module.
+[    0.259216] RPC: Registered udp transport module.
+[    0.259216] RPC: Registered tcp transport module.
+[    0.259246] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.259521] usbhs_omap usbhs_omap: xclk60mhsp2_ck set parentfailed error:-22
+[    0.260559] Trying to unpack rootfs image as initramfs...
+[    0.261962] rootfs image is not initramfs (no cpio magic); looks like an initrd
+[    0.786560] Freeing initrd memory: 65536K
+[    0.787170] CPU PMU: probing PMU on CPU 0
+[    0.787231] hw perfevents: enabled with ARMv7 Cortex-A8 PMU driver, 5 counters available
+[    0.788269] omap_dsp_init: 600000 bytes @ 8ee00000
+[    0.790771] audit: initializing netlink socket (disabled)
+[    0.790863] type=2000 audit(0.773:1): initialized
+[    1.040863] VFS: Disk quotas dquot_6.5.2
+[    1.041381] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    1.045806] NFS: Registering the id_resolver key type
+[    1.045928] Key type id_resolver registered
+[    1.045928] Key type id_legacy registered
+[    1.045989] fuse init (API version 7.20)
+[    1.048492] Btrfs loaded
+[    1.048553] msgmni has been set to 445
+[    1.051269] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+[    1.051300] io scheduler noop registered
+[    1.051330] io scheduler deadline registered
+[    1.051361] io scheduler cfq registered (default)
+[    1.053131] OMAP DSS rev 2.0
+[    1.056579] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    1.058776] omap_uart.0: ttyO0 at MMIO 0x4806a000 (irq = 88) is a OMAP UART0
+[    1.059417] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 89) is a OMAP UART1
+[    1.060058] omap_uart.2: ttyO2 at MMIO 0x49020000 (irq = 90) is a OMAP UART2
+[    1.957550] console [ttyO2] enabled
+[    1.973388] brd: module loaded
+[    1.982818] loop: module loaded
+[    1.988006] twl4030_madc twl4030_madc: clk disabled, enabling
+[    1.997436] NAND device: Manufacturer ID: 0x2c, Chip ID: 0xba (Micron NAND 256MiB 1,8V 16-bit), page size: 2048, OOB size: 64
+[    2.009521] Creating 5 MTD partitions on "omap2-nand.0":
+[    2.015289] 0x000000000000-0x000000080000 : "X-Loader"
+[    2.022888] 0x000000080000-0x000000260000 : "U-Boot"
+[    2.031494] 0x000000260000-0x000000280000 : "U-Boot Env"
+[    2.038818] 0x000000280000-0x000000680000 : "Kernel"
+[    2.049041] 0x000000680000-0x000010000000 : "File System"
+[    2.270538] OneNAND driver initializing
+[    2.276519] omap-dma-engine omap-dma-engine: allocating channel for 16
+[    2.283386] omap-dma-engine omap-dma-engine: allocating channel for 15
+[    2.290924] omap-dma-engine omap-dma-engine: allocating channel for 24
+[    2.297973] omap-dma-engine omap-dma-engine: allocating channel for 23
+[    2.305847] omap-dma-engine omap-dma-engine: allocating channel for 71
+[    2.312927] omap-dma-engine omap-dma-engine: allocating channel for 70
+[    2.321258] usbcore: registered new interface driver cdc_ether
+[    2.327606] usbcore: registered new interface driver rndis_host
+[    2.334075] usbcore: registered new interface driver cdc_ncm
+[    2.341003] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.348175] ehci-omap.0 supply hsusb1 not found, using dummy regulator
+[    2.355377] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller
+[    2.361663] ehci-omap ehci-omap.0: new USB bus registered, assigned bus number 1
+[    3.401428] ehci-omap ehci-omap.0: irq 93, io mem 0x48064800
+[    3.417083] ehci-omap ehci-omap.0: USB 2.0 started, EHCI 1.00
+[    3.423278] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    3.430572] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.438323] usb usb1: Product: OMAP-EHCI Host Controller
+[    3.444061] usb usb1: Manufacturer: Linux 3.7.4+ ehci_hcd
+[    3.449859] usb usb1: SerialNumber: ehci-omap.0
+[    3.455535] hub 1-0:1.0: USB hub found
+[    3.459655] hub 1-0:1.0: 3 ports detected
+[    3.464538] Initializing USB Mass Storage driver...
+[    3.469848] usbcore: registered new interface driver usb-storage
+[    3.476348] USB Mass Storage support registered.
+[    3.481353] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)
+[    3.492156] musb-hdrc musb-hdrc.0: USB OTG mode controller at fa0ab000 using DMA, IRQ 108
+[    3.501251]  gadget: using random self ethernet address
+[    3.506927]  gadget: using random host ethernet address
+[    3.513183] usb0: MAC 92:6a:6c:b5:df:a8
+[    3.517242] usb0: HOST MAC ce:3c:8a:ec:0f:f4
+[    3.521911]  gadget: Ethernet Gadget, version: Memorial Day 2008
+[    3.528381]  gadget: g_ether ready
+[    3.531982] musb-hdrc musb-hdrc.0: MUSB HDRC host driver
+[    3.538116] musb-hdrc musb-hdrc.0: new USB bus registered, assigned bus number 2
+[    3.546203] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[    3.553497] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.561248] usb usb2: Product: MUSB HDRC host driver
+[    3.566589] usb usb2: Manufacturer: Linux 3.7.4+ musb-hcd
+[    3.572265] usb usb2: SerialNumber: musb-hdrc.0
+[    3.577911] hub 2-0:1.0: USB hub found
+[    3.582122] hub 2-0:1.0: 1 port detected
+[    3.587097] mousedev: PS/2 mouse device common for all mice
+[    3.594451] input: twl4030_pwrbutton as /devices/platform/omap_i2c.1/i2c-1/1-0049/twl4030_pwrbutton/input/input0
+[    3.606597] twl_rtc twl_rtc: Power up reset detected.
+[    3.612030] twl_rtc twl_rtc: Enabling TWL-RTC
+[    3.619049] twl_rtc twl_rtc: rtc core: registered twl_rtc as rtc0
+[    3.627166] i2c /dev entries driver
+[    3.631896] lirc_dev: IR Remote Control driver registered, major 246 
+[    3.638946] smssdio: Siano SMS1xxx SDIO driver
+[    3.643798] smssdio: Copyright Pierre Ossman
+[    3.648345] Driver for 1-wire Dallas network protocol.
+[    3.654876] omap_wdt: OMAP Watchdog Timer Rev 0x31: initial timeout 60 sec
+[    3.662597] twl4030_wdt twl4030_wdt: Failed to register misc device
+[    3.669372] twl4030_wdt: probe of twl4030_wdt failed with error -16
+[    3.677581] device-mapper: ioctl: 4.23.0-ioctl (2012-07-25) initialised: dm-devel@redhat.com
+[    3.686981] cpuidle: using governor ladder
+[    3.691436] cpuidle: using governor menu
+[    3.695648] sdhci: Secure Digital Host Controller Interface driver
+[    3.702301] sdhci: Copyright(c) Pierre Ossman
+[    3.708343] omap_hsmmc omap_hsmmc.0: Failed to get debounce clk
+[    3.714813] omap-dma-engine omap-dma-engine: allocating channel for 62
+[    3.721862] omap-dma-engine omap-dma-engine: allocating channel for 61
+[    4.107360] ledtrig-cpu: registered to indicate activity on CPUs
+[    4.115509] usbcore: registered new interface driver usbhid
+[    4.121551] usbhid: USB HID core driver
+[    4.128601] ashmem: initialized
+[    4.211944] omap-twl4030 omap-twl4030:  twl4030-hifi <-> omap-mcbsp.2 mapping ok
+[    4.222412] oprofile: using arm/armv7
+[    4.226898] TCP: cubic registered
+[    4.231597] NET: Registered protocol family 10
+[    4.237823] NET: Registered protocol family 17
+[    4.242889] Key type dns_resolver registered
+[    4.247924] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 1
+[    4.261932] ThumbEE CPU extension supported.
+[    4.266479] Registering SWP/SWPB emulation handler
+[    4.271697] SmartReflex Class3 initialized
+[    4.284790] clock: disabling unused clocks to save power
+[    4.291748] registered taskstats version 1
+[    4.296478] fbcvt: 640x480@60: CVT Name - .307M3-R
+[    4.306854] Console: switching to colour frame buffer device 80x30
+[    4.320343] VAUX3: incomplete constraints, leaving on
+[    4.326538] VDAC: incomplete constraints, leaving on
+[    4.334014] twl_rtc twl_rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
+[    4.342742] sr_init: No PMIC hook to init smartreflex
+[    4.348358] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver initialized
+[    4.356933] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver initialized
+[    4.365386] cpufreq_cpu0: failed to find cpu0 node
+[    4.370941] ALSA device list:
+[    4.374084]   #0: omap3beagle
+[    4.378051] RAMDISK: gzip image found at block 0
+[    4.417144] mmc0: new high speed SDHC card at address b368
+[    4.433532] mmcblk0: mmc0:b368 SDC   15.0 GiB 
+[    4.441650]  mmcblk0: p1
+[    7.227386] VFS: Mounted root (ext2 filesystem) on device 1:0.
+[    7.234100] devtmpfs: mounted
+[    7.238342] Freeing init memory: 380K
+[    7.304016] systemd[1]: systemd 196 running in system mode. (+PAM -LIBWRAP -AUDIT -SELINUX +IMA +SYSVINIT -LIBCRYPTSETUP +GCRYPT +ACL +XZ; angstrom)
+
+Welcome to [1;35mThe Ångström Distribution[0m!
+
+[    7.341247] systemd[1]: Failed to insert module 'autofs4'
+[    7.347961] systemd[1]: Set hostname to <beagleboard>.
+[    7.354675] systemd[1]: Initializing machine ID from random generator.
+[    7.484527] systemd[1]: Cannot add dependency job for unit display-manager.service, ignoring: Unit display-manager.service failed to load: No such file or directory. See system logs and 'systemctl status display-manager.service' for details.
+[    7.509399] systemd[1]: Expecting device dev-ttyO2.device...
+         Expecting device dev-ttyO2.device...
+[    7.535064] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    7.544036] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    7.552429] systemd[1]: Starting Syslog Socket.
+[[1;32m  OK  [0m] Listening on Syslog Socket.
+[    7.573791] systemd[1]: Listening on Syslog Socket.
+[    7.579071] systemd[1]: Starting Remote File Systems.
+[[1;32m  OK  [0m] Reached target Remote File Systems.
+[    7.604980] systemd[1]: Reached target Remote File Systems.
+[    7.610961] systemd[1]: Starting Delayed Shutdown Socket.
+[[1;32m  OK  [0m] Listening on Delayed Shutdown Socket.
+[    7.636230] systemd[1]: Listening on Delayed Shutdown Socket.
+[    7.642395] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[[1;32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+[    7.667480] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    7.675720] systemd[1]: Starting udev Kernel Socket.
+[[1;32m  OK  [0m] Listening on udev Kernel Socket.
+[    7.698760] systemd[1]: Listening on udev Kernel Socket.
+[    7.704986] systemd[1]: Starting udev Control Socket.
+[[1;32m  OK  [0m] Listening on udev Control Socket.
+[    7.730010] systemd[1]: Listening on udev Control Socket.
+[    7.735900] systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+[    7.745208] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    7.754119] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[    7.763702] systemd[1]: Failed to open /dev/autofs: No such file or directory
+[    7.771484] systemd[1]: Failed to initialize automounter: No such file or directory
+[[1;31mFAILED[0m] Failed to set up automount Arbitrary Executable File...utomount Point.
+See 'systemctl status proc-sys-fs-binfmt_misc.automount' for details.
+[    7.816009] systemd[1]: Failed to set up automount Arbitrary Executable File Formats File System Automount Point.
+[    7.827087] systemd[1]: Unit proc-sys-fs-binfmt_misc.automount entered failed state
+[    7.835449] systemd[1]: Starting Swap.
+[[1;32m  OK  [0m] Reached target Swap.
+[    7.855255] systemd[1]: Reached target Swap.
+[    7.859893] systemd[1]: Starting Journal Socket.
+[[1;32m  OK  [0m] Listening on Journal Socket.
+[    7.886260] systemd[1]: Listening on Journal Socket.
+[    7.891662] systemd[1]: Starting Syslog.
+[[1;32m  OK  [0m] Reached target Syslog.
+[    7.909698] systemd[1]: Reached target Syslog.
+[    7.914550] systemd[1]: Started File System Check on Root Device.
+[    7.921325] systemd[1]: Starting Remount Root and Kernel File Systems...
+         Starting Remount Root and Kernel File Systems...
+[    7.953094] systemd[1]: Starting Journal Service...
+         Starting Journal Service...
+[[1;32m  OK  [0m] Started Journal Service.
+[    8.011291] systemd[1]: Started Journal Service.
+[    8.016632] systemd[1]: Mounting Debug File System...
+         Mounting Debug File System...
+[    8.053833] systemd[1]: Mounting POSIX Message Queue File System...
+         Mounting POSIX Message Queue File System...
+[    8.101135] systemd[1]: Started Set Up Additional Binary Formats.
+[    8.123657] systemd[1]: Mounted Huge Pages File System.
+[    8.136077] systemd[1]: Started Machine ID first boot configure.
+[    8.160583] systemd[1]: Starting Load Kernel Modules...
+         Starting Load Kernel Modules...
+[    8.195068] systemd[1]: Starting udev Coldplug all Devices...
+         Starting udev Coldplug all Devices...
+[    8.234374] systemd[1]: Started Apply Kernel Variables.
+[    8.250305] systemd[1]: Starting udev Kernel Device Manager...
+         Starting udev Kernel Device Manager...
+[[1;32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[    8.331573] systemd[1]: Started Remount Root and Kernel File Systems.
+[[1;32m  OK  [0m] Mounted Debug File System.
+[    8.352020] systemd-udevd[76]: starting version 196
+[    8.362609] systemd[1]: Mounted Debug File System.
+[[1;32m  OK  [0m] Started udev Kernel Device Manager.
+[    8.386138] systemd[1]: Started udev Kernel Device Manager.
+[[1;32m  OK  [0m] Mounted POSIX Message Queue File System.
+[    8.401855] systemd[1]: Mounted POSIX Message Queue File System.
+[    8.417388] systemd[1]: systemd-modules-load.service: main process exited, code=exited, status=1/FAILURE
+[[1;31mFAILED[0m] Failed to start Load Kernel Modules.
+See 'systemctl status systemd-modules-load.service' for details.
+[    8.471954] systemd[1]: Failed to start Load Kernel Modules.
+[    8.477996] systemd[1]: Unit systemd-modules-load.service entered failed state
+[    8.503448] systemd[1]: Mounting FUSE Control File System...
+         Mounting FUSE Control File System...
+[    8.530426] systemd[1]: Mounted Configuration File System.
+[    8.552307] systemd[1]: Starting Local File Systems (Pre).
+[[1;32m  OK  [0m] Reached target Local File Systems (Pre).
+[    8.581665] systemd[1]: Reached target Local File Systems (Pre).
+[    8.588195] systemd[1]: Mounting /tmp...
+         Mounting /tmp...
+[    8.624023] systemd[1]: Starting Load Random Seed...
+         Starting Load Random Seed...
+[[1;32m  OK  [0m] Mounted FUSE Control File System.
+[[1;32m  OK  [0m] Mounted /tmp.
+[[1;32m  OK  [0m] Reached target Local File Systems.
+         Starting Trigger Flushing of Journal to Persistent Storage...
+         Starting Recreate Volatile Files and Directories...
+         Starting Run pending postinsts...
+[[1;32m  OK  [0m] Started Load Random Seed.
+[[1;32m  OK  [0m] Started Trigger Flushing of Journal to Persistent Storage.
+[[1;32m  OK  [0m] Started Recreate Volatile Files and Directories.
+[[1;32m  OK  [0m] Started udev Coldplug all Devices.
+[    9.549499] systemd-journald[66]: Received SIGUSR1
+[[1;32m  OK  [0m] Started Run pending postinsts.
+[[1;32m  OK  [0m] Reached target System Initialization.
+[[1;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[1;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[1;32m  OK  [0m] Listening on dropbear.socket.
+[[1;32m  OK  [0m] Reached target Sockets.
+[[1;32m  OK  [0m] Reached target Basic System.
+         Starting Connection service...
+         Starting Timestamping service...
+[[1;32m  OK  [0m] Started Timestamping service.
+         Starting SSH Key Generation...
+[[1;32m  OK  [0m] Started SSH Key Generation.
+         Starting System Logging Service...
+[[1;32m  OK  [0m] Started System Logging Service.
+         Starting Kernel Logging Service...
+[[1;32m  OK  [0m] Started Kernel Logging Service.
+         Starting D-Bus System Message Bus...
+[[1;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Login Service...
+         Starting Permit User Sessions...
+         Starting Avahi mDNS/DNS-SD Stack...
+[[1;32m  OK  [0m] Started Permit User Sessions.
+         Starting Getty on tty1...
+[[1;32m  OK  [0m] Started Getty on tty1.
+[[1;32m  OK  [0m] Started Connection service.
+[[1;32m  OK  [0m] Started Login Service.
+[[1;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+         Starting WPA supplicant...
+[[1;32m  OK  [0m] Started WPA supplicant.
+[[1;32m  OK  [0m] Reached target Sound Card.
+[[1;32m  OK  [0m] Found device /dev/ttyO2.
+         Starting Serial Getty on ttyO2...
+[[1;32m  OK  [0m] Started Serial Getty on ttyO2.
+[[1;32m  OK  [0m] Reached target Login Prompts.
+[[1;32m  OK  [0m] Reached target Multi-User.
+[[1;32m  OK  [0m] Reached target Graphical Interface.
+
+
+.---O---.                                           
+|       |                  .-.           o o        
+|   |   |-----.-----.-----.| |   .----..-----.-----.
+|       |     | __  |  ---'| '--.|  .-'|     |     |
+|   |   |  |  |     |---  ||  --'|  |  |  '  | | | |
+'---'---'--'--'--.  |-----''----''--'  '-----'-'-'-'
+                -'  |
+                '---'
+
+The Angstrom Distribution beagleboard ttyO2
+
+Angstrom v2012.12 - Kernel 3.7.4+
+
+beagleboard login: 
