@@ -1,9 +1,0 @@
-console=ttyS2,115200n8
-mmcroot=/dev/mmcblk0p2 rw
-bootdelay=3
-loaduimage=fatload mmc ${mmcdev} ${loadaddr} uImage;
-
-
-
-
-
