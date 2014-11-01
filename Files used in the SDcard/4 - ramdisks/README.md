@@ -1,6 +1,6 @@
 ##HOW TO CREATE THE RAMDISK
 ####Procedure from: http://processors.wiki.ti.com/index.php/Initrd
-Substitute "count" for the number of bytes of your ramdisk:
+Substitute "count" by the number of bytes of your ramdisk:
 
 ~~~~~~
 $ dd if=/dev/zero of=/dev/ram0 bs=1k count="count"
