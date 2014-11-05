@@ -1,0 +1,295 @@
+U-Boot 2012.10 (Oct 22 2014 - 14:00:51)
+
+OMAP3530-GP ES3.1, CPU-OPP2, L3-165MHz, Max CPU Clock 600 mHz
+OMAP3 Beagle board + LPDDR/NAND
+I2C:   ready
+DRAM:  256 MiB
+NAND:  256 MiB
+MMC:   OMAP SD/MMC: 0
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Beagle Rev C4                  �ѡ��[Y��չ��5)!�с��偭���ѽ��ѽ����ѽ����遁       0 �
+gpio: pin 173 (gpio 173) value is 1
+gpio: pin 7 (gpio 7) value is 0513001010
+SD/MMC found on device 0
+reading uEnv.txt
+                                                                                
+119 bytes read                                                                  
+Loaded environment from uEnv.txt                                                
+Importing environment from mmc ...                                              
+reading uImage                                                                  
+                                                                                
+3390424 bytes read                                                              
+Booting from mmc ...                                                            
+## Booting kernel from Legacy Image at 80200000 ...                             
+   Image Name:   Linux-3.7.4+                                                   
+   Image Type:   ARM Linux Kernel Image (uncompressed)                          
+   Data Size:    3390360 Bytes = 3.2 MiB                                        
+   Load Address: 80008000                                                       
+   Entry Point:  80008000                                                       
+   Verifying Checksum ... OK                                                    
+   Loading Kernel Image ... OK                                                  
+OK                                                                              
+                                                                                
+Starting kernel ...                                                             
+                                                                                
+Uncompressing Linux... done, booti�破�Y�����KC�[    0.000000] Booting Linux o 0
+[    0.000000] Initializing cgroup subsys cpuset                                
+[    0.000000] Initializing cgr������⳹�������۠��������������������e�sion 3.7    4
+[    0.000000] CPU: ARMv7 Processor [411fc083] revision 3 (ARMv7), cr=10c5387d  
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instrue
+[    0.000000] Machine: OMAP3 Beagle Board                                      
+[    0.000000] Beagle expansionboard: spidev                                    
+[    0.000000] Beagle camera: none                                              
+[    0.000000] Reserving 12582912 bytes SDRAM for VR�͍����������������Ạ�����    0
+[    0.000000] Memory policy: ECC disabled, Data cache writeback                
+[    0.000000] OMAP3430/3530 ES3.1 (l2cache iva sgx neon isp )                  
+[    0.000000] Clocking rate (Crystal/Core/MPU): 26.0/332/600 MHz               
+[    0.000000] PERCPU: Embedded 9 pages/cpu @c0cbb000 s13312 r8192 d15360 u36864
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pa4
+[    0.000000] Kernel command line: console=ttyO2,115200n8 mpurate=auto buddy=st
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)              
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)  
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)    
+[    0.000000] allocated 524288 bytes of page_cgroup                            
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memos
+[    0�0�����ݠͥ���������� ���������������[    0.000000] Memory: 211460k/2114    m
+[    0.000000] Virtual kernel memory layout:                                    
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)                
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)                
+[    0.000000]     vmalloc : 0xd0800000 - 0xff000000   ( 744 MB)                
+[    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)                
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)                
+[    0.000000]     m������������氰���������⦥�����������1� MB)                   
+[    0.000000]       .text : 0xc0008000 - 0xc0905078   (9205 kB)                
+[    0.000000]       .init : 0xc0906000 - 0xc0965400   ( 381 kB)                
+[    0.000000]       .data : 0xc0966000 - 0xc09ed9f0   ( 543 kB)                
+[    0.000000]        .bss : 0xc09eda14 - 0xc0ab65d4   ( 803 kB)                
+[    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, 1
+[    0.000000] Hierarchical RCU implementation.                                 
+[    0.000000]  RCU restricting CPUs from NR_CPUS=2 to nr_cpu_ids=�������������6
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrups
+[    0.000000] Total of 96 interrupts on 1 active controller                    
+[    0.000000] OMAP clockevent source: GPTIMER12 at 32768 Hz                    
+[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 1s
+[    0.000000] OMAP clocksource: 32k_counter at 32768 Hz                        
+[    0.000000] Console: colour dummy device 80x30                               
+[    0.000213] Calibrating delay loop... 379.66 BogoMI�������������������������1
+[    0.052124] Security Framework initialized                                   
+[    0.052185] AppArmor: AppArmor initialized                                   
+[    0.052429] Mount-cache hash table entries: 512                              
+[    0.053588] Initializing cgroup subsys cpuacct                               
+[    0.053619] Initializing cgroup subsys memory                                
+[    0.053680] Initializing cgroup subsys devices                               
+[    0.053710] Initializing cgroup subsys freezer                               
+[    0.053710] Initializing cgroup subsys blkio                                 
+[    0.053741] Initializing cgroup s�����������嶥���������������ݠÐ����esting   k
+[    0.054199] CPU0: thread -1, cpu 0, socket -1, mpidr 0                       
+[    0.054290] Setting up static identity map for 0x806588b0 - 0x80658908       
+[    0.055755] Brought up 1 CPUs                                                
+[    0.055786] SMP: Total of 1 processors activated (379.66 BogoMIPS).          
+[    0.056915] devtmpfs: initialized                                            
+[    0.107879] pinctrl core: initialized pinctrl subsystem                      
+[    0.108520] regulator-dummy: no parameters                                   
+[    0.110137] NET: Registered protocol family ���������������ݠ���������쬯���  s
+[    0.115631] omap-gpmc omap-gpmc: GPMC revision 5.0                           
+[    0.118225] OMAP GPIO hardware version 2.5                                   
+[    0.123443] omap_mux_init: Add partition: #1: core, flags: 0                 
+[    0.124816] ¡¡¡¡¡¡¡¡¡¡BOARD REVISION MODIFIED: IT ALLWAYS RETURNS           !
+[    0.124816] OMAP3 Beagle Rev: C4                                             
+[    0.135589] Reprogramming SDRC clock to 332000000 Hz                         
+[    0.135681] Beagle expansionboard: registering spidev                        
+[    0.1371�6ݠ�������������Ӱ����������������egistering NAND on CS0              
+[    0.137634] hw-breakpoint: debug architecture 0x4 unsupported.               
+[    0.137908] Could not look up dss_hdmi hw_mod                                
+[    0.138061] Could not look up dmic hw_mod                                    
+[    0.138092] Could not look up mcpdm hw_mod                                   
+[    0.141448]  omap-mcbsp.2: alias fck already exists                          
+[    0.141723]  omap-mcbsp.3: alias fck already exists                          
+[    0.142944] OMAP DMA hardware revision 4.0                                   
+[    0.144714]  arm-pmu: alias fck already exists                               
+[    0.156768] bio: cre����󬡢����ﭰ��������۠�����������ݠomap-dma-engine om        r
+[    0.175781] SCSI subsystem initialized                                       
+[    0.176605] usbcore: registered new interface driver usbfs                   
+[    0.176696] usbcore: registered new interface driver hub                     
+[    0.176910] usbcore: registered new device driver usb                        
+[    0.177368] musb-omap2430 musb-omap2430: invalid resource                    
+[    0.189727] twl 1-0048: PIH (irq 23) chaining IRQs 338..346                  
+[    0.189910] twl 1-0048: power (irq 343) chaining IRQs 346..3����������������1
+[    0.193176] VUSB1V5: 1500 mV normal standby                                  
+[    0.193695] VUSB1V8: 1800 mV normal standby                                  
+[    0.194274] VUSB3V1: 3100 mV normal standby                                  
+[    0.196411] twl4030_usb twl4030_usb: Initialized TWL4030 USB module          
+[    0.197235] vdd_mpu_iva: 600 <--> 1450 mV normal                             
+[    0.197723] vdd_core: 600 <--> 1450 mV normal                                
+[    0.198394] VMMC1: 1850 <--> 3150 mV at 3150 mV normal standby               
+[    0.199066] VDAC: 1800 mV norm������������۠�������������������������� norma  y
+[    0.200561] VSIM: 1800 <--> 3000 mV at 1800 mV normal standby                
+[    0.201599] VAUX3: 1800 mV normal standby                                    
+[    0.202697] VAUX4: 1800 mV normal standby                                    
+[    0.203094] omap_i2c omap_i2c.1: bus 1 rev1.3.12 at 2600 kHz                 
+[    0.203155] omap_i2c omap_i2c.1: bus 1 rev1.3.12 at 2600 kHz                 
+[    0.203765] omap_i2c omap_i2c.2: bus 2 rev1.3.12 at 400 kHz                  
+[    0.203826] omap_i2c omap_i2c.2: bus 2 rev1.3.12 at 400 kHz                  
+[    0.217071] omap_i2c omap_i2c.3:�����������������������������۠�������7163]   z
+[    0.217346] media: Linux media interface: v0.10                              
+[    0.217437] Linux video capture interface: v2.00                             
+[    0.218078] omap-iommu omap-iommu.0: isp registered                          
+[    0.218414] Advanced Linux Sound Architecture Driver Initialized.            
+[    0.219207] NetLabel: Initializing                                           
+[    0.219238] NetLabel:  domain hash size = 128                                
+[    0.219238] NetLabel:  protocols = UNLABELED CIPSOv4                         
+[    0.219329] NetLabel:  unlabeled traf����ᬬ���䠢�����������۠����������7]      r
+[    0.247161] AppArmor: AppArmor Filesystem Enabled                            
+[    0.263336] NET: Registered protocol family 2                                
+[    0.264343] TCP established hash table entries: 8192 (order: 4, 65536 bytes) 
+[    0.264526] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)        
+[    0.264709] TCP: Hash tables configured (established 8192 bind 8192)         
+[    0.264831] TCP: reno registered                                             
+[    0.264862] UDP hash table entries: 256 (order: 1, 8192 b���󩍊�����������    )
+[    0.265380] NET: Registered protocol family 1                                
+[    0.265899] RPC: Registered named UNIX socket transport module.              
+[    0.265930] RPC: Registered udp transport module.                            
+[    0.265930] RPC: Registered tcp transport module.                            
+[    0.265960] RPC: Registered tcp NFSv4.1 backchannel transport module.        
+[    0.266235] usbhs_omap usbhs_omap: xclk60mhsp2_ck set parentfailed error:-22 
+[    0.268035] CPU PMU: probing PMU on CPU 0                                    
+[������������ݠ������������������䠷�th ARMv7 Cortex-A8 PMU driver, 5 counte    e
+[    0.268981] omap_dsp_init: 600000 bytes @ 8ee00000                           
+[    0.271392] audit: initializing netlink socket (disabled)                    
+[    0.271484] type=2000 audit(0.273:1): initialized                            
+[    0.522430] VFS: Disk quotas dquot_6.5.2                                     
+[    0.522918] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)       
+[    0.527496] NFS: Registering the id_resolver key type                        
+[    0.527587] Key type id_resolver registered                                  
+[    0.527618] Key t��������姡������鳴������۠����������9] fuse init (API ver    )
+[    0.530151] Btrfs loaded                                                     
+[    0.530212] msgmni has been set to 445                                       
+[    0.533050] Block layer SCSI generic (bsg) driver version 0.4 loaded (major )
+[    0.533081] io scheduler noop registered                                     
+[    0.533081] io scheduler deadline registered                                 
+[    0.533142] io scheduler cfq registered (default)                            
+[    0.534912] OMAP DSS rev 2.0                                                 
+[    0.538391] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled          
+[    0.540618] omap_uart.0:�������������������������񠽠�����s�a OMAP UART0        
+[    0.541290] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 89) is a OMAP UART1 
+[    0.541961] omap_uart.2: ttyO2 at MMIO 0x49020000 (irq = 90) is a OMAP UART2 
+[    1.414489] console [ttyO2] enabled                                          
+[    1.430419] brd: module loaded                                               
+[    1.440368���ﯰ��������������[    1.445098] twl4030_madc twl4030_madc: c    g
+[    1.454559] NAND device: Manufacturer ID: 0x2c, Chip ID: 0xba (Micron NAND 24
+[    1.466583] Creating 5 MTD partitions on "omap2-nand.0":                     
+[    1.472290] 0x000000000000-0x000000080000 : "X-Loader"                       
+[    1.479827] 0x000000080000-0x000000260000 : "U-Boot"                         
+����������������������������������������0000 : "U-Boot Env"                     
+[    1.495422] 0x000000280000-0x000000680000 : "Kernel"                         
+[    1.505493] 0x000000680000-0x000010000000 : "File System"                    
+[    1.715026] OneNAND driver initializing                                      
+[    1.721008] ��ᰭ������穮��������������������쬯���ing channel for 16            
+[    1.727813] omap-dma-engine omap-dma-engine: allocating channel for 15       
+[    1.735137] omap-dma-engine omap-dma-engine: allocating channel for 24       
+[    1.742156] omap-dma-engine omap-dma-engine: allocating channel for 23       
+[    1.749999] omap-dma-engine omap-dma-engine: allocating channel for 71       
+[    1.757049] omap-dma-engine omap-dma-engine: allocating channel for 70       
+[    1.765319] usbcore: registered new inter��������������㟥������۠����������   t
+[    1.777832] usbcore: registered new interface driver cdc_ncm                 
+[    1.784729] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver       
+[    1.791870] ehci-omap.0 supply hsusb1 not found, using dummy regulator       
+[    1.799011] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller                 
+[    1.805297] ehci-omap ehci-omap.0: new USB bus registered, assigned bus numb1
+[    2.845214] ehci-omap ehci-omap.0: ��񠹳���������������������[    2.860900]   0
+[    2.867095] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002    
+[    2.874359] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber1
+[    2.882049] usb usb1: Product: OMAP-EHCI Host Controller                     
+[    2.887725] usb usb1: Manufacturer: Linux 3.7.4+ ehci_hcd                    
+[    2.893524] usb usb1:������쎵���������魯�������۠   2.898956] hub 1-0:1.0:    d
+[    2.903076] hub 1-0:1.0: 3 ports detected                                    
+[    2.907989] Initializing USB Mass Storage driver...                          
+[    2.913299] usbcore: registered new interface driver usb-storage             
+[    2.919738] USB Mass Storage support registered.                             
+[    2.924713] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)             
+[    2.935516] musb-hdrc musb-hdrc.0: USB OTG mode controller at fa0ab000 usings
+[    2.949920]  gadget: using random host ethernet address                      
+[    2.956176] usb0: MAC 16:f5:05:02:06:b5                                      
+[    2.960205] usb0: HOST MAC 3a:6d:2e:76:27:56                                 
+[    2.964843]  gadget: Ethernet Gadget, version: Memorial Day 2008             
+[    2.971282]  gadget: g_ether ready                                           
+[    2.974884] musb-hdrc musb-hdrc.0: MUSB HDRC host driver                     
+[    2.980957] musb-hdrc musb-hdrc.0: new USB bus registered, assigned bus numb2
+[    2.9�����ݠ������Ⲻ���Փ������㥠����䬠�dVendor=1d6b, idProduct=0002            
+[    2.996063] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber1
+[    3.003784] usb usb2: Product: MUSB HDRC host driver                         
+[    3.009124] usb usb2: Manufacturer: Linux 3.7.4+ musb-hcd                    
+[    3.014770] usb usb2: SerialNumber: musb-hdrc.0                              
+[    3.020385] hub 2-0:1.0: USB hub found                                       
+[    3.024322] hub 2-0:1.0: 1 port detected                                     
+[    3.029479] mousedev: PS/2 mouse device common for all mice                  
+�������������ݠ鮰������촰�����������n as /devices/platform/omap_i2c.1/i2c-1/1   0
+[    3.049011] twl_rtc twl_rtc: Enabling TWL-RTC                                
+[    3.056060] twl_rtc twl_rtc: rtc core: registered twl_rtc as rtc0            
+[    3.063964] i2c /dev entries driver                                          
+[    3.068542] lirc_dev: IR Remote Control driver registered, major 246         
+[    3.075592] smssdio: Siano SMS1xxx SDIO driver                               
+[    3.080383] smssdio: Copyright Pie򲥠���������������������򠦯��1�wire          .
+[    3.091156] omap_wdt: OMAP Watchdog Timer Rev 0x31: initial timeout 60 sec   
+[    3.098876] twl4030_wdt twl4030_wdt: Failed to register misc device          
+[    3.105590] twl4030_wdt: probe of twl4030_wdt failed with error -16          
+[    3.113189] device-mapper: ioctl: 4.23.0-ioctl (2012-07-25) initialised: dm-m
+[    3.122589] cpuidle: using governor ladder                                   
+[    3.127075] cpuidle: using governor me���������������ݠ����麠��������駩�al   r
+[    3.137664] sdhci: Copyright(c) Pierre Ossman                                
+[    3.143615] omap_hsmmc omap_hsmmc.0: Failed to get debounce clk              
+[    3.150054] omap-dma-engine omap-dma-engine: allocating channel for 62       
+[    3.156921] omap-dma-engine omap-dma-engine: allocating channel for 61       
+[    3.542968] ledtrig-cpu: registered to indicate activity on CPUs             
+[    3.551025] usbcore: registered new inter��㥠��鶥�������䍊�������������     r
+[    3.563629] ashmem: initialized                                              
+�����������ݠm�c0: new high speed SDHC card at address b368                      
+[    3.611236] mmcblk0: mmc0:b368 SDC   15.0 GiB                                
+[    3.618530]  mmcblk0: p1 p2                                                  
+[    3.657806] omap-twl4030 omap-twl4030:  twl4030-hifi <-> omap-mcbsp.2 mappink
+[    3.667968] oprofile: using arm/armv7                                        
+[    3.672424] TCP: cubic registered                                            
+[    3.676910] NET: Registered protocol family 10                               
+[    3.683074] NET: Registered protocol family 17                               
+[    3.688110] Key type dns_resolver registered                                 
+[    3.693054] VFP support v0.3: imp�������������������㴵�����𡲴���������nt    1
+[    3.706726] ThumbEE CPU extension supported.                                 
+[    3.711242] Registering SWP/SWPB emulation handler                           
+[    3.716430] SmartReflex Class3 initialized                                   
+[    3.729614] clock: disabling unused clocks to save power                     
+[    3.736724] registered taskstats version 1                                   
+[    3.741302] fbcvt: 6������������������������������[    3.751800] Console:   0
+[    3.766021] VAUX3: incomplete constraints, leaving on                        
+[    3.772094] VDAC: incomplete constraints, leaving on                         
+[    3.782073] twl_rtc twl_rtc: setting system clock to 2000-01-01 00:00:32 UTC)
+�����������ݠ���������������à�����to init smartreflex                            
+[    3.795989] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver inid
+[    3.804504] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver inid
+[    3.812896] cpufreq_cpu0: failed to find cpu0 node                           
+[    3.818359] ALSA device list:                                                
+[    3.821624]   #0: omap3beagle                                                
+[    3.829803] EXT3-fs error (device mmcblk0p2): ext3_check_descriptors: Block !
+[    3.844757] EXT3-fs (mmcblk0p2): error: group descriptors corrupted          
+[    3.851837] List of all partitions:                                          
+[    3.855743] 1f00             512 mtdblock0  (driver?)                        
+[    3.861175] 1f01            1920 mtdblock1  (driver?)                        
+[    3.866455] 1f02             128 mtdblock2  (driver?)                        
+[    3.871887] 1f03            4096 mtdblock3  (driver?)                        
+[    3.877441] 1f04          255488 mtdblock4  (driver?)                        
+[    3.882720] b300    �������������������������������������                    
+                                                            [    3.888244]   b30
+[    3.896209]   b302        15679440 mmcblk0p2 00000000-0000-0000-0000-00000000
+[    3.904174] No filesystem could mount root, tried:  ext3                     
+[    3.909881] Kernel panic - not syncing: VFS: Unable to mount root fs on unkn)
+[    3.918731] [<c0013bac>] (unwind_backtrace+0x0/0xe0) from [<c064a00c>] (pani)
+[    3.927307] [<c064a00c>] (panic+0x84/0x1e0) from�������������������������  )
+[    3.935943] [<c0906b70>] (mount_block_root+0x1e4/0x224) from [<c0906d7c>] (m)
+[    3.945220] [<c0906d7c>] (mount_root+0xe4/0x100) from [<c0906ef4>] (prepare_)
+[    3.954620] [<c0906ef4>] (prepare_namespace+0x15c/0x1bc) from [<c0631e88>] ()
+[    3.964172] [<c0631e88>] (kernel_init+0x1e8/0x324) from [<c000d638>] (ret_fr)
+
+
