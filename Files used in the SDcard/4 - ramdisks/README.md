@@ -19,3 +19,7 @@ After untar, run the following:
 $ umount mnt
 $ gzip -v9 ramdisk
 ~~~~~~
+If you find any problem while unmount just run:
+~~~~~~
+$ umount -a
+~~~~~~
