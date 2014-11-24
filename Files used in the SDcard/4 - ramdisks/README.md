@@ -3,10 +3,10 @@
 Substitute "count" by the number of bytes of your ramdisk:
 
 ~~~~~~
-$ dd if=/dev/zero of=/dev/ram0 bs=1k count="count"
-$ mke2fs -vm0 /dev/ram0 "count"
+$ sudo dd if=/dev/zero of=/dev/ram0 bs=1k count="count"
+$ sudo mke2fs -vm0 /dev/ram0 "count"
 $ tune2fs -c 0 /dev/ram0
-$ dd if=/dev/ram0 bs=1k count="count" | gzip -v9 > ramdisk.gz
+$ sudo dd if=/dev/ram0 bs=1k count="count" | gzip -v9 > ramdisk.gz
 ~~~~~~
 ~~~~~~
 $ mkdir mnt
