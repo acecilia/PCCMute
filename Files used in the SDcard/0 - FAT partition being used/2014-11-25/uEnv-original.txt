@@ -1,0 +1,15 @@
+usbserial=setenv stdin usbtty;setenv stdout usbtty;setenv stderr usbtty
+uartserial=setenv stdin serial;setenv stdout serial;setenv stderr serial
+enabledvi=i2c mw 0x49 0x9C 80 1;i2c mw 0x49 0x9F 80 1;mw 4800212C 00000004;mw 49054094 00004000;mw 49054034 FFFFBFFF;mw 4905403C 00004000
+stdin=serial
+stdout=serial
+stderr=serial
+console=ttyO2,230400n8
+mmcroot=/dev/mmcblk0p2 rw
+bootdelay=10
+loaduimage=fatload mmc ${mmcdev} ${loadaddr} uImage;saveenv
+
+
+
+
+
