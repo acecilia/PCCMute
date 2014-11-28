@@ -1,0 +1,6 @@
+buddy=spidev
+console=ttyO2,115200n8
+bootpart=0:1
+bootdir=/
+bootcmd=run findfdt; mmc dev ${mmcdev}; if mmc rescan; then if run userbutton; then setenv bootenv uEnv.txt;else setenv bootenv user.txt;fi;echo SD/MMC found on device ${mmcdev};if run loadbootenv; then echo Loaded environment from ${bootenv};run importbootenv;fi;if test -n $uenvcmd; then echo Running uenvcmd ...;run uenvcmd;fi;if run loadimage; then run loadramdisk;run ramboot;fi;fi;run nandboot;setenv bootfile zImage;if run loadimage; then run loadfdt;run mmcbootz; fi; 
+mmcboot=echo Instead of loaduimage we will execute saveenv in order to boot automatically from ramdisk in the next reboot...;saveenv;

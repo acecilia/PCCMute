@@ -2,4 +2,3 @@ bootcmd=if mmc rescan ${mmcdev}; then if run userbutton; then setenv bootenv uEn
 loaduimage=echo Instead of loaduimage we will execute saveenv in order to boot automatically from ramdisk in the next reboot...;saveenv;
 buddy=spidev
 console=ttyO2,115200n8
-ramargs=setenv bootargs console=${console} ${optargs} mpurate=${mpurate} buddy=${buddy} vram=${vram} omapfb.mode=dvi:${dvimode} omapdss.def_disp=${defaultdisplay} root=${ramroot} rootfstype=${ramrootfstype}
