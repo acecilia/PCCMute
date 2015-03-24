@@ -1,0 +1,10 @@
+01:35:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building target: test
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++-4.8  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+
+01:35:26 Build Finished (took 295ms)
+

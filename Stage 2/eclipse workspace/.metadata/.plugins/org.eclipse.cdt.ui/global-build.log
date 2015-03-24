@@ -1,0 +1,2090 @@
+17:37:40 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:37:44 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:37:52 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:40:06 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:40:24 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:40:39 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:41:58 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:598:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:600:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:42:28 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:601:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:42:36 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+17:42:48 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:601:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:43:05 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:600:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:602:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:44:21 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:358:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:601:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:603:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:46:16 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:358:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:601:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:603:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:47:58 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:362:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:605:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:607:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:52:17 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘tx_config’:
+../src/SPI.c:286:6: warning: format not a string literal and no format arguments [-Wformat-security]
+      printf("\nj="+j);
+      ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:363:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:606:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:608:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:52:41 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:363:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:606:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:608:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:53:16 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:364:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:607:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:609:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:53:50 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘tx_config’:
+../src/SPI.c:260:5: warning: format not a string literal and no format arguments [-Wformat-security]
+     printf("tresC="+num_channels);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:365:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:608:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:610:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:54:29 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+../src/SPI.c: In function ‘InsertData’:
+Building file: ../src/SPI.c
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:365:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:608:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:610:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:54:49 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:365:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:608:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:610:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:56:47 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:601:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:57:28 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:600:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:602:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:57:43 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:602:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+17:58:00 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:602:12: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  CreateFile(File);
+            ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:01:20 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:527:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:01:37 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:527:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:01:54 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:527:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:02:32 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:527:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:02:47 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:189:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:356:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:599:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:527:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:03:00 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+18:04:25 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:180:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:347:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:590:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:518:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:05:06 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:177:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:344:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:587:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:515:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:05:16 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:188:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:355:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:598:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:526:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:05:30 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘CreateFile’:
+../src/SPI.c:150:9: warning: unused variable ‘File’ [-Wunused-variable]
+   FILE *File = fopen(filesave, "r");
+         ^
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:178:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:345:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:588:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:516:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:05:42 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:180:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:347:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:590:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:518:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:05:59 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:188:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:355:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:598:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:526:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:06:11 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:180:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:347:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:590:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:518:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:06:32 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘CreateFile’:
+../src/SPI.c:150:9: warning: unused variable ‘File’ [-Wunused-variable]
+   FILE *File = fopen(filesave, "r");
+         ^
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:178:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:345:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:588:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:516:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:06:51 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:188:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:355:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:598:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:526:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:08:55 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:188:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:355:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:598:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:526:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:09:28 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:191:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:358:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:601:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:529:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:12:02 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:17:34 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:18:34 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:607:2: warning: implicit declaration of function ‘fprint’ [-Wimplicit-function-declaration]
+  fprint("\n*End of the program*");
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+./src/SPI.o: En la función `main':
+/home/andres/workspace/SPI/Debug/../src/SPI.c:607: referencia a `fprint' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [SPI] Error 1
+18:18:49 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:19:04 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:20:02 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:20:12 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:21:41 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:187:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:354:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:597:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:525:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:22:22 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:22:33 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+18:22:45 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:359:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:602:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:530:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:23:14 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:188:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+           sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:355:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:598:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:526:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:24:41 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:190:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:358:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:601:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:529:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:24:59 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:190:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:358:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:601:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:529:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:25:24 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:190:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:358:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:601:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:529:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:25:37 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:360:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:603:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:531:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:26:23 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:360:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:603:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:531:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:26:45 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:360:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:603:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:531:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:27:08 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:192:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:360:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:603:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:531:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:27:34 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:193:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:361:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:604:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:532:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:27:45 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:181:5: error: ‘File’ undeclared (first use in this function)
+  if(File == NULL)
+     ^
+../src/SPI.c:181:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/SPI.c:193:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:361:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:604:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:532:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+make: *** [src/SPI.o] Error 1
+18:28:00 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:193:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:361:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:604:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:532:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:181:4: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  if(File == NULL)
+    ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:28:19 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+../src/SPI.c: In function ‘InsertData’:
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c:194:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+    sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+    ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:362:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:605:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:533:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:182:4: warning: ‘File’ is used uninitialized in this function [-Wuninitialized]
+  if(File == NULL)
+    ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:28:46 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:335:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:578:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:506:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:29:12 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:176:17: warning: unused variable ‘str2’ [-Wunused-variable]
+  char str1[16], str2[16];
+                 ^
+../src/SPI.c:176:7: warning: unused variable ‘str1’ [-Wunused-variable]
+  char str1[16], str2[16];
+       ^
+../src/SPI.c:175:11: warning: unused variable ‘i’ [-Wunused-variable]
+  int k=0, i=0;
+           ^
+../src/SPI.c:175:6: warning: unused variable ‘k’ [-Wunused-variable]
+  int k=0, i=0;
+      ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:339:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:582:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:510:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:29:58 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:191:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:363:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:606:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:534:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:30:23 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:176:17: warning: unused variable ‘str2’ [-Wunused-variable]
+  char str1[16], str2[16];
+                 ^
+../src/SPI.c:176:7: warning: unused variable ‘str1’ [-Wunused-variable]
+  char str1[16], str2[16];
+       ^
+../src/SPI.c:175:11: warning: unused variable ‘i’ [-Wunused-variable]
+  int k=0, i=0;
+           ^
+../src/SPI.c:175:6: warning: unused variable ‘k’ [-Wunused-variable]
+  int k=0, i=0;
+      ^
+../src/SPI.c:174:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File = fopen(filesave, "a");
+        ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:342:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:585:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:513:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:30:34 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:176:17: warning: unused variable ‘str2’ [-Wunused-variable]
+  char str1[16], str2[16];
+                 ^
+../src/SPI.c:176:7: warning: unused variable ‘str1’ [-Wunused-variable]
+  char str1[16], str2[16];
+       ^
+../src/SPI.c:175:11: warning: unused variable ‘i’ [-Wunused-variable]
+  int k=0, i=0;
+           ^
+../src/SPI.c:175:6: warning: unused variable ‘k’ [-Wunused-variable]
+  int k=0, i=0;
+      ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:347:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:590:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:518:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:30:53 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:191:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:363:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:606:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:534:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:31:04 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:191:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:363:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:606:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:534:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:31:13 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘InsertData’:
+../src/SPI.c:191:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:363:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:606:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:534:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:33:42 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘writeToFile’:
+../src/SPI.c:168:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:340:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:583:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:511:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:33:53 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘writeToFile’:
+../src/SPI.c:155:17: warning: unused variable ‘str2’ [-Wunused-variable]
+  char str1[16], str2[16];
+                 ^
+../src/SPI.c:155:7: warning: unused variable ‘str1’ [-Wunused-variable]
+  char str1[16], str2[16];
+       ^
+../src/SPI.c:154:11: warning: unused variable ‘i’ [-Wunused-variable]
+  int k=0, i=0;
+           ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:335:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:578:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:506:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:34:12 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘writeToFile’:
+../src/SPI.c:169:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%d:%02d:%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_hour, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_min, dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c:155:17: warning: unused variable ‘str2’ [-Wunused-variable]
+  char str1[16], str2[16];
+                 ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:340:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:583:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:511:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:34:23 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘writeToFile’:
+../src/SPI.c:155:7: warning: unused variable ‘str1’ [-Wunused-variable]
+  char str1[16], str2[16];
+       ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:340:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:583:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:511:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:34:38 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+../src/SPI.c: In function ‘compare_channels’:
+Building file: ../src/SPI.c
+../src/SPI.c:340:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:583:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+  close(fd);
+  ^
+../src/SPI.c:511:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:35:44 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:341:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:584:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:512:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:36:18 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘writeToFile’:
+../src/SPI.c:169:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘__suseconds_t’ [-Wformat=]
+     sprintf(str1,"\n%02d %d",dominios[chs_read[k]].measures[i].timems.ptm_aux->tm_sec, dominios[chs_read[k]].measures[i].timems.aux_timeval.tv_usec);
+     ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:341:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:584:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:512:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:36:55 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:342:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:585:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:513:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:39:12 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘writeToFile’:
+../src/SPI.c:169:187: error: expected ‘)’ before ‘;’ token
+     sprintf(str1,"%s\tConsumption:\t%f mA %f mW \n", dominios[chs_read[k]].dominio, dominios[chs_read[k]].avg_measure, (dominios[chs_read[k]].voltage)*(dominios[chs_read[k]].avg_measure);
+                                                                                                                                                                                           ^
+../src/SPI.c:174:4: error: expected ‘;’ before ‘}’ token
+    }
+    ^
+../src/SPI.c:153:17: warning: unused variable ‘str2’ [-Wunused-variable]
+  char str1[16], str2[16];
+                 ^
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:338:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:581:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:509:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+make: *** [src/SPI.o] Error 1
+18:39:39 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:338:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:581:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:509:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:40:45 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:336:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:579:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:507:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
+18:41:43 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+Building file: ../src/SPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
+../src/SPI.c: In function ‘compare_channels’:
+../src/SPI.c:336:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if (!strcmp(id_channel, dominios[k].dominio))
+   ^
+../src/SPI.c: In function ‘main’:
+../src/SPI.c:579:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(fd);
+  ^
+../src/SPI.c:507:8: warning: unused variable ‘File’ [-Wunused-variable]
+  FILE *File;
+        ^
+Finished building: ../src/SPI.c
+ 
+Building target: SPI
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
+Finished building target: SPI
+ 
