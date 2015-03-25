@@ -1,4 +1,4 @@
-18:41:43 **** Incremental Build of configuration Debug for project SPI ****
+20:59:54 **** Incremental Build of configuration Debug for project SPI ****
 make all 
 Building file: ../src/SPI.c
 Invoking: Cross GCC Compiler
@@ -8,12 +8,9 @@ arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src
    if (!strcmp(id_channel, dominios[k].dominio))
    ^
 ../src/SPI.c: In function ‘main’:
-../src/SPI.c:579:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../src/SPI.c:578:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
   close(fd);
   ^
-../src/SPI.c:507:8: warning: unused variable ‘File’ [-Wunused-variable]
-  FILE *File;
-        ^
 Finished building: ../src/SPI.c
  
 Building target: SPI
@@ -22,5 +19,5 @@ arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o
 Finished building target: SPI
  
 
-18:41:43 Build Finished (took 311ms)
+20:59:55 Build Finished (took 352ms)
 

@@ -106,7 +106,7 @@ struct dom_registro {
  * @.voltage: Domain power source voltage
  * @ avg_measure: average current consumption resulting in the dominium
  */
-struct dom_registro dominios[16] = {
+struct dom_registro dominios[15] = {
 {.dominio = "DVI", 		.Rsense = 68,	.voltage = 5.3, },
 {.dominio = "USBS", 	.Rsense = 8.25,	.voltage = 5.3, }, //4 RESISTORES DE 33MOHM EN PARALELO
 {.dominio = "MPU_IVA", 	.Rsense = 430,	.voltage = 5.3, },
@@ -154,7 +154,7 @@ void writeToFile()
 
 	if(File == NULL)
 	{
-	   printf("\nThere was a problem writing the data to the disk (.txt file)");
+	   printf("\nFile does not exist! \nPlease create it");
 	}
 	else
 	{
@@ -504,6 +504,7 @@ int main(int argc,char *argv[])
 {
 	int ret = 0;
 	int k = 0, i = 0;
+	FILE *File;
 
 	parse_opts(argc, argv);
 

@@ -57,8 +57,8 @@ int config_ADC = 0;
 int chan = 0;
 int valor = 0;
 int fd;
-int num_channels = 16;
-int chs_read[16];
+int num_channels = 15;
+int chs_read[15];
 int num_samples = 10;
 int count_samples = 0;
 int elapsed_time_0 = 0, elapsed_time_1 = 0;
@@ -106,7 +106,7 @@ struct dom_registro {
  * @.voltage: Domain power source voltage
  * @ avg_measure: average current consumption resulting in the dominium
  */
-struct dom_registro dominios[16] = {
+struct dom_registro dominios[15] = {
 {.dominio = "DVI", 		.Rsense = 68,	.voltage = 5.3, },
 {.dominio = "USBS", 	.Rsense = 8.25,	.voltage = 5.3, }, //4 RESISTORES DE 33MOHM EN PARALELO
 {.dominio = "MPU_IVA", 	.Rsense = 430,	.voltage = 5.3, },
@@ -150,11 +150,11 @@ void writeToFile()
 {
 	FILE *File = fopen(filesave, "a");
 	int k=0, i=0;
-	char str1[16], str2[16];
+	char str1[15], str2[15];
 
 	if(File == NULL)
 	{
-	   printf("\nThere was a problem writing the data to the disk (.txt file)");
+	   printf("\nFile does not exist! \nPlease create it");
 	}
 	else
 	{
@@ -230,7 +230,7 @@ void tx_config(void)
 		}
 		else if(k==1)
 		{
-			if (num_channels == 16)
+			if (num_channels == 15)
 			{
 				tx_aux_1 = 0xFF;
 				tx_aux_2 = 0xFF;
@@ -331,12 +331,12 @@ static void print_usage(const char *prog)
 static int compare_channels(char *id_channel)
 {
 	int k=0;
-	for(k=0;k<16;k++)
+	for(k=0;k<15;k++)
 	{
 		if (!strcmp(id_channel, dominios[k].dominio))
 			return(k);
 	}
-	return(16);
+	return(15);
 }
 
 /* void parse_opts(int argc, char *argv[]) function evaluates and register the commands
@@ -478,7 +478,7 @@ void calc_operations (void)
 			}
 		}
 
-		for(k=0; k< 16; k++)
+		for(k=0; k< 15; k++)
 		{
 		dominios[k].avg_measure = dominios[k].avg_measure / count_samples;
 		}
@@ -504,13 +504,14 @@ int main(int argc,char *argv[])
 {
 	int ret = 0;
 	int k = 0, i = 0;
+	FILE *File;
 
 	parse_opts(argc, argv);
 
-	if (num_channels == 16)
+	if (num_channels == 15)
 	{
-		num_channels = 16;
-		for (k=0; k < 16; k++)
+		num_channels = 15;
+		for (k=0; k < 15; k++)
 		{
 			chs_read[k]=k;
 		}
