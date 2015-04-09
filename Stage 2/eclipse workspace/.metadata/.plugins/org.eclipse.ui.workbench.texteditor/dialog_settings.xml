@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="330" key="DIALOG_WIDTH"/>
-		<item value="269" key="DIALOG_Y_ORIGIN"/>
-		<item value="456" key="DIALOG_HEIGHT"/>
-		<item value="885" key="DIALOG_X_ORIGIN"/>
+		<item value="310" key="DIALOG_WIDTH"/>
+		<item value="162" key="DIALOG_Y_ORIGIN"/>
+		<item value="16" key="DIALOG_X_ORIGIN"/>
+		<item value="408" key="DIALOG_HEIGHT"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="rx" key="selection"/>
 		<list key="findhistory">
-			<item value="stack smashing detected "/>
-			<item value="logout"/>
-			<item value="createFile"/>
-			<item value="InsertData"/>
-			<item value="File"/>
-			<item value="config_ADC"/>
-			<item value="16"/>
-			<item value="uint11"/>
+			<item value="rx"/>
+			<item value="intr_rx"/>
+			<item value="intr_word"/>
+			<item value="transfer"/>
+			<item value="transfer()"/>
+			<item value="count_samples"/>
+			<item value="chs_read"/>
+			<item value="aux_time"/>
 		</list>
 		<list key="replacehistory">
 			<item value="uint16"/>

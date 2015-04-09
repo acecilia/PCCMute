@@ -1,0 +1,7 @@
+In the computer:
+sudo iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE
+sudo iptables --append FORWARD --in-interface usb0 -j ACCEPT
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+In the board:
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf

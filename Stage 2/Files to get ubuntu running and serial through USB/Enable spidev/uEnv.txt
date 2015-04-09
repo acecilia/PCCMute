@@ -1,0 +1,9 @@
+#Docs: http://elinux.org/Beagleboard:U-boot_partitioning_layout_2.0
+
+uname_r=3.19.0-armv7-x3
+#dtb=
+uuid=a63d7dcc-7a21-4daa-9a32-9bd39a6c2143
+
+cmdline=quiet 
+
+buddy=spidev

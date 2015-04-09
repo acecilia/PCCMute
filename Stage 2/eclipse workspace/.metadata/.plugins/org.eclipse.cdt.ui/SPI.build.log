@@ -1,23 +1,6 @@
-20:59:54 **** Incremental Build of configuration Debug for project SPI ****
+14:00:14 **** Build of configuration Debug for project SPI ****
 make all 
-Building file: ../src/SPI.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc-4.8 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPI.d" -MT"src/SPI.d" -o "src/SPI.o" "../src/SPI.c"
-../src/SPI.c: In function ‘compare_channels’:
-../src/SPI.c:336:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
-   if (!strcmp(id_channel, dominios[k].dominio))
-   ^
-../src/SPI.c: In function ‘main’:
-../src/SPI.c:578:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
-  close(fd);
-  ^
-Finished building: ../src/SPI.c
- 
-Building target: SPI
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
-Finished building target: SPI
- 
+make: No se hace nada para «all».
 
-20:59:55 Build Finished (took 352ms)
+14:00:14 Build Finished (took 114ms)
 

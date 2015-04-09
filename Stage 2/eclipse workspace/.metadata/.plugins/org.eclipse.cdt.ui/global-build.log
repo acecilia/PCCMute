@@ -41,3 +41,9 @@ Invoking: Cross GCC Linker
 arm-linux-gnueabihf-gcc-4.8  -o "SPI"  ./src/SPI.o   
 Finished building target: SPI
  
+11:25:15 **** Incremental Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
+14:00:14 **** Build of configuration Debug for project SPI ****
+make all 
+make: No se hace nada para «all».
